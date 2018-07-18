@@ -1,0 +1,22 @@
+{
+  "name": "xiongchao/laravel-swoole-wheel",
+  "description": "laravel swoole wheel",
+  "keywords": ["laravel", "swoole", "php", "wheel", "http", "tcp", "websocket"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xiongchao",
+      "email": "xiongchao@yuanben.org"
+    }
+  ],
+  "require":{
+      "php": ">=7.0",
+	  "ext-swoole": ">=1.9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "XiongChao\\Swoole\\": "src/"
+    }
+  }
+}
